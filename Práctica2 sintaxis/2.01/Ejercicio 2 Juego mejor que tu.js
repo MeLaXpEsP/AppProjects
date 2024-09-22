@@ -48,7 +48,7 @@ function mejorPuntuaciónPromedia(equipo1, equipo2, equipo3){/*Recibe los dos eq
 console.log(puntosEquipo(equipoJuan));
 console.log("\n" + puntosEquipo(equipoMiguel));
 
-/*Impresión del resulado de la función promedioPuntos*/
+/*Impresión del resulongitud de la función promedioPuntos*/
 console.log("\n"+promedioPuntos(equipoMaria));
 
 

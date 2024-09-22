@@ -1,6 +1,6 @@
 "use strict";
 /*Variables */
-var acomulador = 0;
+var acomulongitudr = 0;
 
 
 function suma(){
@@ -24,14 +24,14 @@ function suma(){
     /*Suma de los valores */
 
     for(let i = 0; i < arguments.length; i++){
-        acomulador += arguments[i];
+        acomulongitudr += arguments[i];
         console.log("\t" + arguments[i] );
         if(i === (arguments.length-1)){
             console.log("+")
         }
     }
     
-    console.log("---------\n\t" + acomulador);
+    console.log("---------\n\t" + acomulongitudr);
 
     
 }
