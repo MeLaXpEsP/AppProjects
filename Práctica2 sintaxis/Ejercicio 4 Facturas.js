@@ -2,7 +2,7 @@
 
 
 
-function test(nombreProducto = "Producto genérico", precio = 100, impuesto = 21){
+function facturas(nombreProducto = "Producto genérico", precio = 100, impuesto = 21){
     /*Comprobamos que los valores sean números*/
     if (isNaN(precio) || isNaN(impuesto)){
         console.error("Los valores introducidos no son numéricos");
@@ -18,4 +18,4 @@ function test(nombreProducto = "Producto genérico", precio = 100, impuesto = 21
 
 }
 
-test();
+facturas();
