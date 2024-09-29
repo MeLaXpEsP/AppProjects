@@ -17,11 +17,19 @@ let discente = {
 
     imprimirAficiones : function(){
         for(let i = 0; i < this.aficiones.length ; i ++){
-            console.log("Aficion " + (i+1) + ":" + this.aficiones[i]);
+            console.log("Aficion " + (i+1) + ": " + this.aficiones[i]);
         }
+    },
+
+    imprimirInforme : function(){
+        console.log("ID: " + this.id);
+        console.log("Nombre: " + this.nombre + " " + this.apellidos);
+        this.imprimirAficiones();
+        console.log("Notas: \nPrimera evaluación -> " + this.notas.primera + "\nSegunda evaluación -> " + this.notas.segunda + "\nTercera evaluación -> " + this.notas.tercera);
+        console.log("Nota media: " + this.calcularMedia());
     }
 
 
 }
 
-discente.imprimirAficiones();
+discente.imprimirInforme();
