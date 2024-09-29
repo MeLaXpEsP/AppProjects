@@ -1,8 +1,8 @@
-"use strict"; // Activa el modo estricto
+"use strict";
 
-// Define la función para crear un curso
+/*Funcion para crear curso */
 function crearCurso(nombreCurso, año, descripcion, alumnado) {
-    // Retorna un objeto con las propiedades del curso
+    
     return {
         nombreCurso: nombreCurso,
         año: año,
@@ -11,8 +11,7 @@ function crearCurso(nombreCurso, año, descripcion, alumnado) {
     };
 }
 
-// Crea un objeto curso con los valores proporcionados
+/*Creación de objeto */
 var curso = crearCurso("Daw", 2024, "Curso informática", ["Pepe", "Jose", "Nuria"]);
 
-// Imprime las propiedades del curso en la consola
 console.log(curso.nombreCurso + " " + curso.año + " " + curso.descripcion + " " + curso.alumnado);

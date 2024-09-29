@@ -29,11 +29,14 @@ function suma(){
         if(i === (arguments.length-1)){
             console.log("+")
         }
+
     }
     
     console.log("---------\n\t" + acomulongitudr);
+    acomulongitudr = 0;
 
     
 }
 
 suma(1,5);
+suma(4,8);
