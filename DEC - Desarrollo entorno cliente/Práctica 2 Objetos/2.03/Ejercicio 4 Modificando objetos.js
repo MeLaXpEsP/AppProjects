@@ -8,8 +8,9 @@ function crearCurso(nombreCurso, año, descripcion) {
         año: año,
         descripcion: descripcion,
         alumnado: [],
-        matricular: function (...discente) {
-            this.alumnado = discente;
+        /*Introduce los datos del objeto discente en el array alumnado */
+        matricular: function (discente) {
+            this.alumnado = [...discente];
         }
     }
 
