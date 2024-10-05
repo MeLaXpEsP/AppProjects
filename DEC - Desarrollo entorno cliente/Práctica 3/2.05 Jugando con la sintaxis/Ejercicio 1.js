@@ -1,7 +1,5 @@
 "use strict";
 
-var valorFinal = [];
-
 /*Funcion para llenar array con 9 numeros*/
 function llenarArray() {
 
@@ -36,4 +34,4 @@ function comprobarNumeros(array) {
 
 
 
-comprobarNumeros(llenarArray());
+console.log(comprobarNumeros(llenarArray()));
