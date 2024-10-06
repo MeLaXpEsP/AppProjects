@@ -20,7 +20,6 @@ function llenarArray() {
 function crearMatriz(){
     /*Variable para crear la matriz*/
     let matriz = [];
-
     let vector = llenarArray();
 
     /*Recorremos el vector y añadimos los 3 primeros valores, luego sumamos 3 para poder separar de 3 en 3*/
